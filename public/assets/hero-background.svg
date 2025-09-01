@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <!-- Gradient definitions -->
+    <linearGradient id="buildingGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:0.1" />
+      <stop offset="50%" style="stop-color:#764ba2;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#2c3e50;stop-opacity:0.1" />
+    </linearGradient>
+    
+    <linearGradient id="windowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.05" />
+    </linearGradient>
+    
+    <linearGradient id="balconyGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:0.12" />
+      <stop offset="100%" style="stop-color:#ffffff;stop-opacity:0.03" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background gradient -->
+  <rect width="100%" height="100%" fill="url(#buildingGradient)"/>
+  
+  <!-- Spanish architecture elements -->
+  
+  <!-- Main building structure -->
+  <rect x="100" y="400" width="400" height="600" fill="url(#windowGradient)" rx="10"/>
+  <rect x="120" y="420" width="360" height="560" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.1" rx="8"/>
+  
+  <!-- Windows -->
+  <rect x="140" y="450" width="80" height="120" fill="url(#windowGradient)" rx="5"/>
+  <rect x="280" y="450" width="80" height="120" fill="url(#windowGradient)" rx="5"/>
+  <rect x="140" y="600" width="80" height="120" fill="url(#windowGradient)" rx="5"/>
+  <rect x="280" y="600" width="80" height="120" fill="url(#windowGradient)" rx="5"/>
+  <rect x="140" y="750" width="80" height="120" fill="url(#windowGradient)" rx="5"/>
+  <rect x="280" y="750" width="80" height="120" fill="url(#windowGradient)" rx="5"/>
+  
+  <!-- Balconies -->
+  <rect x="130" y="580" width="100" height="20" fill="url(#balconyGradient)" rx="3"/>
+  <rect x="290" y="580" width="100" height="20" fill="url(#balconyGradient)" rx="3"/>
+  <rect x="130" y="730" width="100" height="20" fill="url(#balconyGradient)" rx="3"/>
+  <rect x="290" y="730" width="100" height="20" fill="url(#balconyGradient)" rx="3"/>
+  
+  <!-- Second building -->
+  <rect x="600" y="300" width="350" height="700" fill="url(#windowGradient)" rx="12"/>
+  <rect x="620" y="320" width="310" height="660" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.1" rx="10"/>
+  
+  <!-- Windows for second building -->
+  <rect x="640" y="350" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="760" y="350" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="880" y="350" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="640" y="480" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="760" y="480" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="880" y="480" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="640" y="610" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="760" y="610" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="880" y="610" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="640" y="740" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="760" y="740" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  <rect x="880" y="740" width="70" height="100" fill="url(#windowGradient)" rx="4"/>
+  
+  <!-- Balconies for second building -->
+  <rect x="630" y="480" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="750" y="480" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="870" y="480" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="630" y="610" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="750" y="610" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="870" y="610" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="630" y="740" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="750" y="740" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="870" y="740" width="90" height="15" fill="url(#balconyGradient)" rx="2"/>
+  
+  <!-- Third building (taller) -->
+  <rect x="1050" y="200" width="300" height="800" fill="url(#windowGradient)" rx="15"/>
+  <rect x="1070" y="220" width="260" height="760" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.1" rx="13"/>
+  
+  <!-- Windows for third building -->
+  <rect x="1090" y="250" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1190" y="250" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1290" y="250" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1090" y="370" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1190" y="370" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1290" y="370" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1090" y="490" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1190" y="490" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1290" y="490" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1090" y="610" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1190" y="610" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1290" y="610" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1090" y="730" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1190" y="730" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  <rect x="1290" y="730" width="60" height="90" fill="url(#windowGradient)" rx="3"/>
+  
+  <!-- Balconies for third building -->
+  <rect x="1080" y="370" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1180" y="370" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1280" y="370" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1080" y="490" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1180" y="490" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1280" y="490" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1080" y="610" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1180" y="610" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1280" y="610" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1080" y="730" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1180" y="730" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  <rect x="1280" y="730" width="80" height="12" fill="url(#balconyGradient)" rx="2"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="200" cy="150" r="30" fill="#ffffff" opacity="0.08"/>
+  <circle cx="1600" cy="180" r="40" fill="#ffffff" opacity="0.06"/>
+  <circle cx="300" cy="950" r="25" fill="#ffffff" opacity="0.07"/>
+  <circle cx="1400" cy="920" r="35" fill="#ffffff" opacity="0.05"/>
+  
+  <!-- Roof details -->
+  <rect x="100" y="380" width="400" height="20" fill="url(#balconyGradient)" rx="10"/>
+  <rect x="600" y="280" width="350" height="20" fill="url(#balconyGradient)" rx="10"/>
+  <rect x="1050" y="180" width="300" height="20" fill="url(#balconyGradient)" rx="10"/>
+</svg>

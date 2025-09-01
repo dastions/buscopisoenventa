@@ -66,7 +66,6 @@ Una landing page minimalista y moderna para una inmobiliaria construida con Vue.
 - Campos para nombre, email, teléfono y tipo de propiedad
 - Mensaje personalizable
 - Genera automáticamente un email con toda la información
-- Enlace directo a oriolmauriguiu@hotmail.es
 
 ### Páginas Secundarias
 - **Pisos**: Página dedicada a propiedades urbanas
@@ -122,7 +121,6 @@ Para hostear como sitio estático en otros servidores:
 ## Contacto
 
 Para consultas sobre este proyecto o la inmobiliaria:
-- Email: oriolmauriguiu@hotmail.es
 - Empresa: Portal 22
 
 ---

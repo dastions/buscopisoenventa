@@ -5,11 +5,11 @@
       <div class="container">
         <div class="header-content">
           <div class="logo">
-            <h1>Portal 22</h1>
-            <span>Inmobiliaria</span>
+            <h1>Finques el Portal 22</h1>
+            <span>Inmobiliaria catalunya</span>
           </div>
           <nav class="nav">
-            <a href="mailto:oriolmauriguiu@hotmail.es" class="contact-btn">
+            <a href="mailto:finqueselportal@gmail.com" class="contact-btn">
               📧 Contactar
             </a>
           </nav>
@@ -19,11 +19,12 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        
       <div class="container">
         <div class="hero-content">
           <div class="hero-text">
-            <h2>Tu hogar ideal te está esperando</h2>
-            <p>En Portal 22 encontrarás las mejores propiedades, desde pisos en la ciudad hasta fincas rústicas en entornos naturales únicos.</p>
+            <h2>Tu hogar ideal en España y Catalunya te está esperando</h2>
+            <p>Portal 22 es tu inmobiliaria de confianza para comprar pisos en España y Catalunya. Encuentra las mejores propiedades urbanas en Barcelona, Madrid, Valencia y otras ciudades españolas, así como fincas rústicas en entornos naturales únicos. Asesoramiento profesional en compraventa de inmuebles.</p>
             <div class="hero-buttons">
               <button @click="goToPisos" class="btn btn-primary">
                 🏢 Ver Pisos
@@ -53,8 +54,8 @@
     <section class="contact-form-section">
       <div class="container">
         <div class="form-wrapper">
-          <h3>¿Tienes alguna consulta?</h3>
-          <p>Completa el formulario y nos pondremos en contacto contigo</p>
+          <h3>¿Buscas comprar un piso en España o Catalunya?</h3>
+          <p>Completa el formulario y nuestros expertos inmobiliarios te asesorarán personalmente sobre las mejores opciones para tu inversión</p>
           <form @submit="handleSubmit" class="contact-form">
             <div class="form-group">
               <input type="text" v-model="form.name" placeholder="Nombre completo" required>
@@ -68,8 +69,11 @@
             <div class="form-group">
               <select v-model="form.propertyType">
                 <option value="">Tipo de propiedad</option>
-                <option value="piso">Piso</option>
+                <option value="piso">Piso en ciudad</option>
+                <option value="apartamento">Apartamento</option>
+                <option value="casa">Casa unifamiliar</option>
                 <option value="finca">Finca rústica</option>
+                <option value="local">Local comercial</option>
                 <option value="otro">Otro</option>
               </select>
             </div>
@@ -90,34 +94,34 @@
         <div class="footer-content">
           <div class="footer-section">
             <h4>Portal 22</h4>
-            <p>Tu inmobiliaria de confianza</p>
+            <p>Tu inmobiliaria de confianza en España y Catalunya</p>
+            <p>Especialistas en compraventa de pisos y propiedades</p>
           </div>
           <div class="footer-section">
             <h4>Contacto</h4>
             <div class="contact-info">
-              <p>📧 oriolmauriguiu@hotmail.es</p>
-              <p>📞 +34 XXX XXX XXX</p>
-              <p>📍 Dirección de la oficina</p>
+              <p>📧 finqueselportal@gmail.com</p>
+              <p>📞 +34  606 83 27 53</p>
+              <p>📍 43330, Riudoms, Tarragona</p>
             </div>
           </div>
           <div class="footer-section">
             <h4>Servicios</h4>
             <ul>
-              <li><a href="#" @click="goToPisos">Pisos</a></li>
-              <li><a href="#" @click="goToFincas">Fincas Rústicas</a></li>
-              <li><a href="mailto:oriolmauriguiu@hotmail.es">Valoraciones</a></li>
+              <li><a href="https://www.buscofincarustica.com/" @click="goToPisos">Pisos en España</a></li>
+              <li><a href="https://www.buscofincarustica.com/" @click="goToFincas">Fincas Rústicas</a></li>
+              <li><a href="mailto:finqueselportal@gmail.com">Valoraciones</a></li>
+              <li><a href="mailto:finqueselportal@gmail.com">Asesoramiento legal</a></li>
+              <li><a href="mailto:finqueselportal@gmail.com">Financiación</a></li>
             </ul>
           </div>
           <div class="footer-section">
             <h4>Datos Fiscales</h4>
             <p>Portal 22 S.L.</p>
-            <p>CIF: X12345678X</p>
-            <p>Registro Mercantil: XXXXX</p>
-            <p>Colegio API: XXXXX</p>
           </div>
         </div>
         <div class="footer-bottom">
-          <p>&copy; 2024 Portal 22. Todos los derechos reservados.</p>
+          <p>&copy; 2025 Portal 22. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
@@ -165,7 +169,7 @@ ${this.form.message}
       `.trim()
       
       // Crear el enlace mailto
-      const mailtoLink = `mailto:oriolmauriguiu@hotmail.es?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+      const mailtoLink = `mailto:finqueselportal@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
       
       // Abrir el cliente de email
       window.location.href = mailtoLink
