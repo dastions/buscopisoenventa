@@ -9,8 +9,11 @@
             <span>Inmobiliaria catalunya</span>
           </div>
           <nav class="nav">
-            <a href="mailto:finqueselportal@gmail.com" class="contact-btn">
+            <!-- <a href="mailto:finqueselportal@gmail.com" class="contact-btn">
               📧 Contactar
+            </a> -->
+            <a href="https://wa.me/34606832753" class="contact-btn" target="_blank">
+                    💬 WhatsApp
             </a>
           </nav>
         </div>

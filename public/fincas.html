@@ -59,10 +59,35 @@
         }
         
         .page-title {
-            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            background: linear-gradient(135deg, rgba(0, 0, 0) 0%, rgba(14, 9, 19, 0.653) 50%, rgba(44, 62, 80, 0.8) 100%), 
+                        url('../src/assets/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             color: white;
             padding: 3rem 0;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .page-title::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, 
+                rgba(102, 126, 234, 0.9) 0%, 
+                rgba(118, 75, 162, 0.9) 50%, 
+                rgba(44, 62, 80, 0.95) 100%);
+            z-index: -1;
+        }
+        
+        .page-title .container {
+            position: relative;
+            z-index: 1;
         }
         
         .page-title h2 {
@@ -71,8 +96,34 @@
         }
         
         .content {
+            background: linear-gradient(135deg, rgba(0, 0, 0) 0%, rgba(14, 9, 19, 0.653) 50%, rgba(44, 62, 80, 0.8) 100%), 
+                        url('../src/assets/background.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
             padding: 4rem 0;
             text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .content::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, 
+                rgba(102, 126, 234, 0.9) 0%, 
+                rgba(118, 75, 162, 0.9) 50%, 
+                rgba(44, 62, 80, 0.95) 100%);
+            z-index: -1;
+        }
+        
+        .content .container {
+            position: relative;
+            z-index: 1;
         }
         
         .coming-soon {
@@ -97,7 +148,7 @@
         }
         
         .contact-link {
-            background: linear-gradient(135deg, #4ecdc4, #44a08d);
+            background: linear-gradient(135deg, #2c3e50, #34495e);
             color: white;
             text-decoration: none;
             padding: 1rem 2rem;
@@ -111,10 +162,30 @@
             transform: translateY(-3px);
         }
         
+        .contact-link {
+            margin: 0 0.5rem;
+        }
+        
+        .whatsapp-btn {
+            background: linear-gradient(135deg, #25D366, #128C7E) !important;
+        }
+        
+        .whatsapp-btn:hover {
+            background: linear-gradient(135deg, #128C7E, #075E54) !important;
+        }
+        
         @media (max-width: 768px) {
             .header-content {
                 flex-direction: column;
                 gap: 1rem;
+            }
+            
+            .page-title {
+                background-attachment: scroll;
+            }
+            
+            .content {
+                background-attachment: scroll;
             }
             
             .page-title h2 {
@@ -132,7 +203,7 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <h1>Portal 22</h1>
+                    <h1><a href="/" style="color: white; text-decoration: none;">Finques el Portal 22</a></h1>
                 </div>
                 <a href="/" class="back-btn">← Volver al inicio</a>
             </div>
@@ -157,6 +228,9 @@
                 <p>Contacta con nosotros para recibir información exclusiva sobre nuestras fincas rústicas disponibles en España.</p>
                 <a href="mailto:finqueselportal@gmail.com?subject=Consulta sobre fincas rústicas" class="contact-link">
                     📧 Contactar ahora
+                </a>
+                <a href="https://wa.me/34606832753" class="contact-link whatsapp-btn" target="_blank">
+                    💬 WhatsApp
                 </a>
             </div>
         </div>
